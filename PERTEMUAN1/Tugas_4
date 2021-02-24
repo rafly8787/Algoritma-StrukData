@@ -1,0 +1,58 @@
+
+import java.util.Scanner;
+public class Tugas_4 {
+    static int alas,tinggi, panjang, lebar;
+    static Scanner sc = new Scanner(System.in);    
+    public static void main(String[] args){
+        System.out.println("-----sistem hitung bangun datar-----");
+        System.out.println("Pilihan menu hitung: ");
+        System.out.println("1. Segitiga");
+        System.out.println("2. Persegi Panjang");
+        System.out.println("3. Lingkaran");
+        System.out.print("pilih : ");
+        int a = sc.nextInt();
+        PilihanMenu(a);
+    }
+
+    public static void PilihanMenu(int b) {
+        switch (b) {
+            case 1:
+                segitiga();
+                break;
+            case 2:
+               persegipanjang();
+                break;
+            case 3:
+               lingkaran();
+                break;
+            default:
+                System.out.println("MAAF COBA LAGI");
+        }
+    }
+    static void segitiga(){
+    int luassegitiga;
+    System.out.print ("Masukkan Alas : ");
+    alas  = sc.nextInt();
+    System.out.print("Masukkan Tinggi : ");
+    tinggi = sc.nextInt();
+    luassegitiga = (int) (0.5 * (alas*tinggi));
+    System.out.println("Luas Segitiga adalah"  + luassegitiga); 
+}
+    static void persegipanjang(){
+    int luaspp;
+        System.out.print("Masukkan Panjang : ");
+        panjang = sc.nextInt();
+        System.out.print("Masukkan Lebar : ");
+        lebar = sc.nextInt();
+        luaspp = panjang * lebar;
+        System.out.println("Luas Persegi Panjang  adalah " + luaspp);
+    }
+    static void lingkaran(){
+        int r;
+        int luaslingkaran;
+        System.out.println("Luas jari-jari : ");
+        r = sc.nextInt();
+        luaslingkaran = (int) (3.14 * r * r);
+        System.out.print("Luas lingkaran adalah " + luaslingkaran);
+    }
+}
