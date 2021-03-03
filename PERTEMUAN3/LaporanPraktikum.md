@@ -34,7 +34,9 @@
 
 ## 3.4.3 pertanyaan
 
-1. (TANYA AIDA NNTI)
+1. dapat , jumlah parameter atau jenis konstruktornya berbeda. Contoh ,
+membuat konstruktor dengan parameter alas dan tinggi segitiga,dan konstruktor default untuk
+menghitung luas segitiga
 2. Diketahui terdapat class segitiga 
 <img src="nomor2_pertanyaan3.jpg">
 
