@@ -34,7 +34,8 @@
 2. - ss class diagram 
 <img src= "classdiagram.jpg" >
 
-    - ss kode nomor 2
+    - ss ss nomor 2
+<img src = "videoGame.jpg">
 
 3. - ss kode nomor 3
 
@@ -42,6 +43,7 @@
 
 - ss hasil running nomor 3
 
+-- 
 <img src = "barang1.jpg" >
 
 4. - ss hasil running nomor 4

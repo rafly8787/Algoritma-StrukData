@@ -29,28 +29,28 @@ public class VideoGame {
         System.out.println("Total Bayar     : " + bayarSewa());
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner cin = new Scanner(System.in);
         VideoGame a1 = new VideoGame(1, 30000, "Dinner Dash");
         VideoGame a2 = new VideoGame(2, 15000, "Subway Surf");      
         a1.listGame();
         a2.listGame();
         System.out.print("Pilih ID Game: ");
-        int opsi = sc.nextInt();
+        int opsi = cin.nextInt();
         switch(opsi){
             case 1:
                 System.out.print("Masukkan Lama Sewa    : ");
-                a1.lama_sewa = sc.nextInt();
-                sc.nextLine();
+                a1.lama_sewa = cin.nextInt();
+                cin.nextLine();
                 System.out.print("Masukkan Nama Member  : ");
-                a1.nama_member = sc.nextLine();
+                a1.nama_member = cin.nextLine();
                 a1.strukSewa();
                 break;
             case 2:
                 System.out.print("Masukkan Lama Sewa    : ");
-                a2.lama_sewa = sc.nextInt();
-                sc.nextLine();
+                a2.lama_sewa = cin.nextInt();
+                cin.nextLine();
                 System.out.print("Masukkan Nama Member  : ");
-                a2.nama_member = sc.nextLine();
+                a2.nama_member = cin.nextLine();
                 a2.strukSewa();
                 break;
         }
