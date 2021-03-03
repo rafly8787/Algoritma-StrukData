@@ -19,7 +19,7 @@
 2. contohnya
 
 
-    <img src="nomor2_pertanyaan2.jpg">
+    <img src="![nomor2_pertanyaan2](https://user-images.githubusercontent.com/44152125/109858758-cbb88580-7c8e-11eb-827b-d505b3b5a603.jpg)">
 
 3. akan memunculkan eror karena tidak terdapat objek index ke-5. maka harus membuat objek terlebih dahulu agar tidak eror.
 
