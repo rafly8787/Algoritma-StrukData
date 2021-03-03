@@ -19,7 +19,7 @@
 2. contohnya
 
 
-    <img src="nomor2_pertanyaan2.jpg">
+    <img src="PERTEMUAN3/nomor2_pertanyaan2.JPG">
 
 3. akan memunculkan eror karena tidak terdapat objek index ke-5. maka harus membuat objek terlebih dahulu agar tidak eror.
 
