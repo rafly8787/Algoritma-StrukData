@@ -20,31 +20,31 @@
 1. pada class "barang" deklarasi konstuktor berparameter dilakukan pada baris 17
 2. pada class "BarangMain" yang dilakukan adalah melakukan konstruktor berparameter di objek class "barang" dan mengisi nilai parameternya
 3. membuat objek dengan nama b3 dengan  konstruktor
-    <img src = "nomor3-1_4.jpg">
+    <img src= "nomor3-1_4.jpg">
     hasil output 
-    <img src = "nomor3-2_4.jpg">
+    <img src= "nomor3-2_4.jpg">
 
 ## latihan praktikum
 1. -  ss kode nomor 1 
-    <img src = "lingkaran1.jpg">
+    <img src= "lingkaran1.jpg">
 
     - ss hasil running nomor 1
-    <img src = "lingkaran2.jpg">
+    <img src= "lingkaran2.jpg">
 
 2. - ss class diagram 
 <img src= "classdiagram.jpg" >
 
     - ss ss nomor 2
-<img src = "videoGame.jpg">
+<img src= "videoGame.jpg">
 
 3. - ss kode nomor 3
 
-<img src = "barang2.jpg" >
+<img src= "barang2.jpg" >
 
 - ss hasil running nomor 3
 
 -- 
-<img src = "barang1.jpg" >
+<img src= "barang1.jpg" >
 
 4. - ss hasil running nomor 4
-<img src = "pacman.jpg" >
+<img src= "pacman.jpg" >
